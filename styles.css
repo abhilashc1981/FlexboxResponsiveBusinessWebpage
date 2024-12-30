@@ -1,0 +1,86 @@
+.blackBackground {
+    background-color: black;
+}
+
+#logo {
+    width: 16.5rem;
+    height: 11rem;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    background-color:crimson;
+}
+
+.flexDisplay {
+    display: flex;
+}
+
+header h1 {
+    padding: 0 10rem;
+    font-size: 5rem; 
+    color:goldenrod;
+    width: 100%;
+    text-align: center;   
+}
+
+.zeroMargin {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    background-color:cornflowerblue;
+    color:brown;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+.border1RemSolidGold {
+    border: 1rem solid gold;
+}
+
+p {  
+    border: 1rem solid black;
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+    padding: 1rem;
+    height:min-content;
+    display: inline-block;
+}
+
+.imageContainer {
+    width: 25%;
+    height: 100%;
+}
+
+.images {
+    width: 100%;
+    height: 75%;
+    
+    
+}
+
+@media only screen and (max-width: 960px) {
+    .imagesContainer {
+        flex-direction: column;
+    }
+
+    .imageContainer {
+        width: 100%;
+    }
+
+    h1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 519px) {
+    h1 {
+        display: none;
+    }
+}
